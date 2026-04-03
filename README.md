@@ -19,12 +19,16 @@ To provide data-driven insights that help:
 ## 🧹 Data Preparation
 
 ### Data Cleaning & Structuring
-- ???????Add the others....
 - Standardized column naming and structure  
 - Removed irrelevant and low-value variables (e.g., links, data sources)  
 - Consolidated duplicate identifiers into a unified `case_number`  
 - Eliminated redundant and empty columns  
-- Addressed missing values and ensured dataset consistency  
+- Addressed missing values and ensured dataset consistency
+- Cleaned and formated the date column
+- Filterd and cleaned the Year column 
+- Mapped common country synonyms for data consistency
+- Standardized case and removed extra spaces
+- Mapped inconsistent values to standard categories
 
 ### Data Quality Improvements
 - Reduced noise and inconsistencies across variables  
