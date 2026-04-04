@@ -1,24 +1,25 @@
-# 🦈 Shark Attack Risk & Opportunity Analysis
+# 🦈 Shark attack risk & opportunity analysis
 
-## 🌍 Project Overview
-This project analyzes global shark attack data to identify risk patterns and support strategic decision-making in coastal tourism and insurance.??????
+## 🌍 Project overview
+This project analyzes a historical global dataset of shark attack incidents to identify risk patterns and support decision-making in coastal tourism and insurance.
 
-The dataset has been cleaned and structured to enable reliable insights into when, where, and why shark attacks occur.
-
----
-
-## 🎯 Business Objective
-To provide data-driven insights that help:
-
-- Optimize tourism strategies while minimizing risk  ??????
-- Improve risk-based pricing and insurance product design  ??????
-- Identify high-risk activities, locations, and time periods  ??????
+The dataset includes information such as location, activity, time, species, and injury outcome, and was significantly cleaned and structured to enable reliable analysis.
 
 ---
 
-## 🧹 Data Preparation
+## 🎯 Business objective
+As a coastal tourism company, the goal is to:
 
-### Data Cleaning & Structuring
+- Maximize tourism revenue  
+- Minimize shark attack risk  
+- Support safety decisions through data  
+- Enable better insurance pricing and risk management  
+
+---
+
+## 🧹 Data preparation
+
+### Data cleaning & structuring
 - Standardized column naming and structure  
 - Removed irrelevant and low-value variables (e.g., links, data sources)  
 - Consolidated duplicate identifiers into a unified `case_number`  
@@ -30,31 +31,26 @@ To provide data-driven insights that help:
 - Standardized case and removed extra spaces
 - Mapped inconsistent values to standard categories
 
-### Data Quality Improvements
+### Data quality improvements
 - Reduced noise and inconsistencies across variables  
 - Improved usability for analytical modeling  
 - Prepared dataset for exploratory and business analysis  
 
 ---
 
-## 🔍 Key Analytical Questions
+## 🔍 Key analytical questions
 
-### Tourism Strategy
+### Tourism and insurance strategy
 - Where are shark attacks most frequent?  
 - Which locations present the highest fatality risk?  
 - Are attacks seasonal or time-dependent?  
-- Which activities carry the highest risk?  
+- Which activities carry the highest risk?
+- How can risk patterns support decision-making?  
 
 👉 Goal:  
 **Maximize tourism revenue while minimizing exposure to risk**
 
 ---
-
-### Insurance Strategy
-- What are the main drivers of shark attack risk?  
-- How should premiums reflect real risk exposure?  
-- Which customer profiles are higher risk?  
-- Where should insurance products be expanded?  
 
 👉 Hypotheses:
 - Activity type is the primary risk driver  
@@ -63,22 +59,23 @@ To provide data-driven insights that help:
 
 ---
 
-## 🧠 Analytical Approach
+## 🧠 Analytical approach
 - Data cleaning and validation  
 - Exploratory data analysis (EDA)  
-- Risk factor identification (location, activity, time, demographics)  
+- Risk segmentation (location, activity, time, demographics)  
+- Identification of high-risk vs opportunity zones   
 - Insight generation aligned with business objectives  
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & technologies
 - Python  
 - Pandas  
 - Jupyter Notebook  
 
 ---
 
-## 📎 Final Presentation
+## 📎 Final presentation
 👉 https://docs.google.com/presentation/d/1SrgOqOhtX06alpFyb1HzcUvQ-YtvWknOG6TTuZGp7o0/edit?usp=sharing
 
 ---
